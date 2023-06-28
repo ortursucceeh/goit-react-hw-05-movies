@@ -1,0 +1,25 @@
+.searchPage {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.form {
+  padding: 10px;
+  margin: 20px;
+}
+.label {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.input {
+  margin: 10px;
+}
+
+.button {
+  background-color: rgb(79, 79, 252);
+  color: white;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+}

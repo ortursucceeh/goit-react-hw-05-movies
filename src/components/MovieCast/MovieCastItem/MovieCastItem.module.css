@@ -1,0 +1,11 @@
+.actor {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+  width: 300px;
+}
+
+.profileImg {
+  height: 150px;
+  width: 100px;
+}
