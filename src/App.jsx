@@ -19,7 +19,7 @@ export const App = () => {
   return (
     <Suspense fallback={<Spinner/>}>
       <MovieProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/goit-react-hw-05-movies">
           <Navbar/>
           <Routes>
             <Route path="/" element={<Homepage />}/>
