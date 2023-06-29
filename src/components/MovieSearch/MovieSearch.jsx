@@ -3,7 +3,7 @@ import { useSearchParams } from 'react-router-dom';
 
 import styles from './MovieSearch.module.css'
 import { useMovies } from 'contexts/MoviesContext';
-import Spinner from 'components/Spinner/Spinner';
+import Spinner from 'UI/Spinner/Spinner';
 
 const MovieSearchList = lazy(() => import("./MovieSearchList/MovieSearchList"));
 

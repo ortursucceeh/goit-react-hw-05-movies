@@ -1,5 +1,5 @@
 // import { API_KEY } from 'config';
-import { API_TOKEN } from 'config';
+import { API_TOKEN } from "utils/config";
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
 
 const BASE_URL = 'https://api.themoviedb.org/3';

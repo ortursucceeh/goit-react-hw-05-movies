@@ -1,4 +1,4 @@
-import { formatDate } from "functions";
+import { formatDate } from "utils/functions";
 import styles from './MovieReviewItem.module.css'
 
 function MovieReviewItem({ review }) {

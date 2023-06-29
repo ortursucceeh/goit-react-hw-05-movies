@@ -1,6 +1,6 @@
 import { useMovies } from 'contexts/MoviesContext'
 import styles from './MovieList.module.css'
-import Spinner from 'components/Spinner/Spinner';
+import Spinner from 'UI/Spinner/Spinner';
 import MovieItem from 'components/Movie/MovieItem/MovieItem';
 
 function MovieList() {

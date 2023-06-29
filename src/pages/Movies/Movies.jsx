@@ -1,13 +1,13 @@
-import MovieSearch from "components/MovieSearch/MovieSearch"
-import { Outlet } from "react-router-dom"
+import MovieSearch from 'components/MovieSearch/MovieSearch';
+import { Outlet } from 'react-router-dom';
 
 function Movies() {
   return (
     <div>
       <MovieSearch />
-      <Outlet/>
+      <Outlet />
     </div>
-  )
+  );
 }
 
-export default Movies
+export default Movies;

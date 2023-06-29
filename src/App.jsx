@@ -8,7 +8,7 @@ import MovieCast from "components/MovieCast/MovieCast";
 import MovieReviews from "components/MovieReviews/MovieReviews";
 import Navbar from "components/Navbar/Navbar";
 import MovieList from "components/MovieList/MovieList";
-import Spinner from "components/Spinner/Spinner";
+import Spinner from "UI/Spinner/Spinner";
 
 const Movies = lazy(() => import("pages/Movies/Movies"));
 const NotFound = lazy(() => import("pages/NotFound/NotFound"));
